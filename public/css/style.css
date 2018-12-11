@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.player-wrapper{
+  width:400px;
+  background:#e2e2e2;
+  border: 3px solid #cccccc;
+  margin: 0 auto;
+}
+
+.msg_place{
+  width:700px;
+  margin:0 auto;
+}
+
+.msg_place p{
+  width:100%;
+}
+
+.msg_place span, .msg_place h2{
+  text-align:center;
+}
+
+.msg_place span{
+  font-size:110%;
+}

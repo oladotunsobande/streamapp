@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Create Video Stream</title>
+        <meta charset="utf-8">
+        <!--<script src="./js/main.js"></script>-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="msg_place">
+            <p>
+                <span>Streaming URL:</span><br/>
+                <h2 id="url_placeholder"></h2>
+            </p>
+        </div>
+        <div class="player-wrapper">
+            <button id="btn-start">Start</button>
+            <button id="btn-stop" disabled="disabled">Stop</button>
+                
+            <video id="player" width="400" height="250" controls autoplay></video>
+        </div>
+        <!--<script src="js/adapter.js"></script>-->
+        <script src="js/recordRTC.js"></script>
+        <script src="js/sender.js"></script>
+    </body>
+</html>
